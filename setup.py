@@ -2,23 +2,24 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='loglu',  
-    version='1.1.5',
-    description='The Logarithmic Linear Unit (LogLU) is a novel activation function designed for deep neural networks, improving convergence speed, stability, and overall model performance',
+    name='zengrad',  
+    version='1.0.8',
+    description='ZenGrad: A gradient descent method focused on stability, smooth updates, and efficient, adaptive learning.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    author='Rishi Chaitanya Sri Prasad Nalluri',
-    author_email='rishichaitanya888@gmail.com',
-    url='https://github.com/Rishichaitanya-Nalluri/LogLU',
+    author='Murumuri Naga Poorni',
+    author_email='poorni.m0405@gmail.com',
     packages=find_packages(),
+    url='https://github.com/Poorni-Murumuri/ZenGrad',
     license="Apache-2.0",
     install_requires=[     
         'tensorflow>=2.10.0',
-        'keras>=2.10.0'       
+        'keras>=2.10.0',
+        'loglu>=1.1.1'
     ],
     classifiers=[
     'Programming Language :: Python :: 3',
-    'License :: OSI Approved :: Apache Software License',
+    "License :: OSI Approved :: Apache Software License",
     'Operating System :: OS Independent',
     'Intended Audience :: Developers',
     'Intended Audience :: Science/Research', 
